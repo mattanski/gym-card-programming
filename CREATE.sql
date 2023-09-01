@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS Abbonati(
+	Id serial PRIMARY KEY,
+	Nome VARCHAR(50) NOT NULL,
+	Cognome VARCHAR (50) NOT NULL,
+	NumeroTessera VARCHAR (10) UNIQUE,
+);
